@@ -1,0 +1,58 @@
+body {
+ background-color: #f9f9f9;
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+.container {
+    background: #ecd9d9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ac1616;
+}
+.green {
+   color: #007bff;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 15px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: yellowgreen;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.pass {
+    color: green;
+}
+
+.fail {
+    color: red;
+}
